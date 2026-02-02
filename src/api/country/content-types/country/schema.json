@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "countries",
+  "info": {
+    "displayName": "Country",
+    "singularName": "country",
+    "pluralName": "countries",
+    "description": "",
+    "name": "Country"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "India": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "minLength": 3,
+      "required": true
+    },
+    "YES": {
+      "type": "boolean"
+    },
+    "Population": {
+      "type": "integer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
