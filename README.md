@@ -15,6 +15,8 @@ Here the things i coverd is :
 ## How to Use
 ### Initialize Terraform
 terraform init 
+## validate 
+terraform validate 
 ### Review the Plan
 terraform plan
 ### Create the Infrastructure
